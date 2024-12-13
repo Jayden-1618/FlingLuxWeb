@@ -1,10 +1,15 @@
-.headnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display:inline;
+
+.tfin {
+    font-weight: 300;
+    font-family: "inter", sans-serif;
 }
 
-.navElem{
-    display:inline;
+.bfin {
+    font-weight: 500;
+    font-family: "inter", sans-serif;
+}
+
+rfin {
+    font-weight: 700;
+    font-family: "inter", sans-serif;
 }
