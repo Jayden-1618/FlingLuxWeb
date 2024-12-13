@@ -1,0 +1,12 @@
+    <div class="flex flex-col lg:flex-row h-screen">
+        <!-- First Half -->
+        <div class="flex-1 bg-slate-900 flex items-center justify-center flex-col">
+            <a href = 'Downloads.html' class="text-slate-300 hover:text-white text-3xl bfin pr-8 tracking-widest">Releases <i class="fa fa-download text-md text-slate-300" aria-hidden="true"></i></p>
+            <a href = 'notes.html' class="text-slate-300 hover:text-white text-3xl bfin pr-8 tracking-widest mt-11">Update Notes <i class="fa fa-layer-group text-md text-slate-300" aria-hidden="true"></i></p>
+        </div>
+    
+        <!-- Second Half -->
+        <div class="flex-1 bg-orange-600 flex items-center justify-center">
+            <p class = 'text-slate-300 hover:text-white text-3xl bfin pr-8 tracking-widest'>Under Devlopment</p>
+        </div>            
+    </div>
