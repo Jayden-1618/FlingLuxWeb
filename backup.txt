@@ -10,3 +10,5 @@
             <p class = 'text-slate-300 hover:text-white text-3xl bfin pr-8 tracking-widest'>Under Devlopment</p>
         </div>            
     </div>
+
+    <p class = 'text-slate-800 hover:text-black text-3xl bfin pr-8 tracking-widest'><b>Under Devlopment</b>  <i class="text-slate-800 text-4xl fa fa-exclamation-triangle" aria-hidden="true"></i></p>
