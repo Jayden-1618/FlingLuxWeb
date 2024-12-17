@@ -4,12 +4,26 @@
     font-family: "inter", sans-serif;
 }
 
-.bfin {
+.rfin {
     font-weight: 500;
     font-family: "inter", sans-serif;
 }
 
-.rfin {
+.bfin {
     font-weight: 700;
     font-family: "inter", sans-serif;
 }
+
+.plusclsp summary::after {
+    content: "+";
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+
+  /* Change to "-" when <details> is open */
+.plusclsp[open] summary::after {
+    content: "−";
+      }
+  
+    
