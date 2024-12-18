@@ -12,6 +12,7 @@
 </head>
 
 <body>
+<div class = "pc-only max-sm:hidden block">
     <div class = "fixed top-0 left-0 shadow-md p-4 font-sans flex items-center justify-center w-full bg-black shadow-sm">
         <i class="fa fa-cube text-white text-xl" aria-hidden="true"></i>
         <a href="index.html" class = "text-gray-100 text-3xl p-4 pr-3 ml-0">
@@ -41,6 +42,38 @@
             </div>
         </div>            
     </div>
+</div>
+
+
+<!--Mobile Layout-->
+<div class = "mobile-only sm:hidden flex items-center justify-center">
+    <!--Header container-->
+    <div class = "fixed top-0 left-0 shadow-md w-full">
+        <!--Title Container-->
+        <div class = "p-4 font-sans flex items-center justify-center w-full bg-black shadow-sm">
+            <!--NavBar container-->
+            <i class="fa fa-cube text-white text-lg" aria-hidden="true"></i>
+            <a href="index.html" class = "text-gray-100 text-xl p-3 pr-3 ml-0">
+            FlingLux |</a>
+            <p class = "font-sans text-gray-400 text-md p-1">Official Website</p>
+        </div> 
+        <div class = "bg-slate-900 w-full flex justify-around border-blue-400 border-b-4">
+            <a href = 'Downloads.html' class="p-2 text-slate-300 hover:text-white text-md tfin tracking-widest
+            ">Releases <i class="fa fa-download text-sm text-slate-300" aria-hidden="true"></i></a>
+            <a href = 'notes.html'     class="p-2 text-slate-300 hover:text-white text-md tfin  tracking-widest 
+            ">Update Notes <i class="fa fa-layer-group text-sm text-slate-300" aria-hidden="true"></i></a>
+        </div>
+    </div>
     
+    <div class = "mt-44 flex flex-col items-center justify-center bg-white shadow-lg rounded-xl  w-3/4">
+        <img src = "assets/Screenshots/gameStartCropped.png" class = "w-full rounded-t-xl">
+        <p class = "text-xl text-center text-black font-bold p-4">FlingLux </p>
+        <p class = "text-md text-center text-gray-600 font-semibold p-4">FlingLux is a Physics Based Platformer 
+        with a focus on simplicity and fun. Controlled using a Unique sling based control system</p>
+        <p class = "text-md text-center text-gray-600 font-semibold p-4">FlingLux is a Physics Based Platformer 
+            .uses a Unique sling based control system</p>
+        <a href = "Downloads.html" class = "max-xl:text-lg text-blue-500 hover:text-blue-400 text-2xl font-semibold p-4 bfin mb-2">Go To Downloads Page</a>
+    </div>
+</div>   
 </body>
 </html>
